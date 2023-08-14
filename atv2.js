@@ -75,4 +75,14 @@ for (let i = 0; i < numeros.length; i++) {
 console.log("Números pares:", numerosPares);
 console.log("Números ímpares:", numerosImpares);
 
+//EX1
+let objeto = [1,3,4,1,4,5]
+for (let i = 0; i< objeto.length; i++ ){ 
+if (objeto[i]%objeto[i] === 0)
+{
+    console.log ("não está vazio")
+} if (objeto.length === 0 ) { 
+    console.log("está vazio")
+}
+}
 
